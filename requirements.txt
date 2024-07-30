@@ -1,0 +1,8 @@
+torch
+pandas
+transformers
+gensim
+keras
+tensorflow
+scikit-learn
+matplotlib
