@@ -11,8 +11,8 @@ Run `sevc_main.py` using Python3 and provide arguments to specify the path to th
 python3 sevc_main.py [-h] [-dt <path_to_txt_file>] [-df <path_to_vector_file>] [-m MODEL] [-emb EMBEDDING]
 
 -h, --help                  Print this message and exit
--dt <path_to_txt_file>      Input file consisting code gadget data for training and evaluating
--df <path_to_vector_file>   Input file consisting vectors converted from code gadgets
--m|--model MODEL            (Optional) DL model to train and evaluate. Supported DL models: cnn, rnn, blstm, transformers. Default: cnn.
+-dt <path_to_txt_file>      Input file consisting of SeVC data for training and evaluating
+-df <path_to_vector_file>   Input file consisting of vectors converted from SeVCs
+-m, --model MODEL           (Optional) DL model to train and evaluate. Supported DL models: cnn, rnn, blstm, transformers. Default: cnn.
 -emb EMBEDDING              (Required when using -dt) Supported embedding techniques: word2vec, codebert. Default: word2vec.
 
